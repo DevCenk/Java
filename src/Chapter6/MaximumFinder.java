@@ -5,10 +5,9 @@ import java.util.Scanner;
 
 // executed and tried git.
 //Programmer-declared method maximum with three double parameters.
-//dasdassa
 public class MaximumFinder
 {
-
+ // make new change
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
