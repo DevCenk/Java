@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MaximumFinder
 {
- // make new change
+ // make new changee
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
