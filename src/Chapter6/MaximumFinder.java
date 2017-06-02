@@ -30,7 +30,7 @@ public class MaximumFinder
 		System.out.print("Maximum is: " + result2);
 	}
 	
-	// this is my branch
+	// this is Master
 	static double maximum1(double a, double b, double c)	
 	{
 		double maxNum = a;
