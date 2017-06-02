@@ -1,7 +1,7 @@
 package Chapter6;
 
 import java.util.Scanner;
-//executed and tried git
+
 // executed and tried git.
 //Programmer-declared method maximum with three double parameters.
 public class MaximumFinder
