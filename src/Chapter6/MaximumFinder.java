@@ -2,7 +2,7 @@ package Chapter6;
 
 import java.util.Scanner;
 
- // new merge requiest
+ 
 // executed and tried git.
 //Programmer-declared method maximum with three double parameters.
 public class MaximumFinder
