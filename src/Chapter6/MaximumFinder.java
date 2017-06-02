@@ -5,6 +5,7 @@ import java.util.Scanner;
 // executed and tried git.
 //Programmer-declared method maximum with three double parameters.
 // deneme
+//deneme1
 public class MaximumFinder
 {
 
