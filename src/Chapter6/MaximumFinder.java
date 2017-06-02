@@ -32,14 +32,14 @@ public class MaximumFinder
 	
 	static double maximum1(double a, double b, double c)	
 	{
-		double max = a;
+		double maxNum = a;
 		
-		if(b>max)
-			 max = b;
-		if(c>max)
-			 max = c;
+		if(b>maxNum)
+			maxNum = b;
+		if(c>maxNum)
+			maxNum = c;
 
-		return max;
+		return maxNum;
 	}	
 	
 	static double maximum2(double a, double b, double c)	
