@@ -56,3 +56,15 @@ public class RollDie
 		
 	}
 }
+
+
+/**
+ * int number = shiftingValue + differenceBetweenValues * randomNumbers.nextInt(scalingFactor);
+ * 
+ * A Note About Performance:
+	Using SecureRandom instead of Random to achieve higher levels of security incurs a significant
+	performance penalty. For “casual” applications, you might want to use class Random
+	from package java.util—simply replace SecureRandom with Random
+ *
+ */
+
