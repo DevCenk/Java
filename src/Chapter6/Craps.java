@@ -17,6 +17,10 @@ import java.security.SecureRandom;
 public class Craps
 {
 	private static final SecureRandom randomNumbers = new SecureRandom();
+	// This enables
+	// us to create one SecureRandom object that’s reused in each call to rollDice. If there
+	// were a program that contained multiple instances of class Craps, they’d all share this one
+	// SecureRandom object
 	
 	// enum type with constants that represent the game status
 	private enum Status { CONTINUE, WON, LOST };
