@@ -2,10 +2,6 @@ package Chapter6;
 
 import java.util.Scanner;
 
-// executed and tried git.
-//Programmer-declared method maximum with three double parameters.
-// deneme
-//deneme1
 public class MaximumFinder
 {
 
@@ -31,6 +27,7 @@ public class MaximumFinder
 		System.out.print("Maximum is: " + result1);
 		System.out.println();
 		System.out.print("Maximum is: " + result2);
+		
 	}
 	
 	
@@ -46,8 +43,4 @@ public class MaximumFinder
 		return maxNum;
 	}	
 	
-	static double maximum2(double a, double b, double c)	
-	{
-		return Math.max(a, Math.max(b, c));
-	}
 }

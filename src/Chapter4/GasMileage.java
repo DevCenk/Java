@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class GasMileage
 {
 
+	
 	public static void main(String[] args)
 	{
 		Scanner input = new Scanner(System.in);
@@ -16,8 +17,7 @@ public class GasMileage
 		System.out.print("enter 1 for calculation 0 for exit: ");
 		answer = input.nextInt();
 		
-		while(answer == 1)
-			
+		while(answer == 1)		
 		{
 			System.out.printf("%nenter miles: ");
 			miles = input.nextInt();
@@ -25,6 +25,16 @@ public class GasMileage
 			galons = input.nextInt();
 			
 			average =(double)galons / miles;
+			
+			/**
+			 * 
+			 * // cast operator : This enables you to “take control” from the compiler.
+			            You essentially say, “I know this conversion might cause
+			          	loss of information, but
+				    	for my purposes here, that’s fine.”
+			 * @param args
+			 */
+			
 			totalAverage += average;
 			
 			System.out.printf("average galon per mile: %.2f%n",average);
