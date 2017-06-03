@@ -17,13 +17,17 @@ import java.security.SecureRandom;
 public class Craps
 {
 	private static final SecureRandom randomNumbers = new SecureRandom();
-	// This enables
-	// us to create one SecureRandom object that’s reused in each call to rollDice. If there
+	// This enables us ;
+	// to create one SecureRandom object that’s reused in each call to rollDice. If there
 	// were a program that contained multiple instances of class Craps, they’d all share this one
 	// SecureRandom object
 	
 	// enum type with constants that represent the game status
 	private enum Status { CONTINUE, WON, LOST };
+	// Status is a type called an enum type, which, in its simplest form, declares
+	// a set of constants represented by identifiers.
+	// inside the braces is a comma-separated list of
+	// enum constants, each representing a unique value
 	
 	private static final int SNAKE_EYES = 2;
 	private static final int TREY = 3;
@@ -35,8 +39,13 @@ public class Craps
 	public static void main(String[] args)
 	{
 		int myPoint = 0;  // point if no win or loss on first roll
-		Status gameStatus; // can contain CONTINUE, WON or LOST
+		// if you do not initialize myPoint, the compiler
+		// issues an error, because myPoint is not assigned a value in every case of the switch
+		// statement, and thus the program could try to use myPoint before it’s assigned a value.
 		
+		Status gameStatus; // enum type status // can only contain CONTINUE, WON or LOST
+		// assigned in each of the switch statement so I don t need to assign here
+				
 		int sumOfDice = rollDice();
 		
 		switch (sumOfDice) 
