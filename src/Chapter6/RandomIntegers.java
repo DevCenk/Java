@@ -5,6 +5,7 @@ import java.security.SecureRandom;
 // Rolling a Six-Sided Die 20 times
 public class RandomIntegers
 {
+	
 	public static void main(String[] args) 
 	{
 		SecureRandom randomNumbers = new SecureRandom();

@@ -26,8 +26,7 @@ public class RollDie
 			int face = 1 + randomNumbers.nextInt(6);
 						
 			switch (face) 
-			{
-			
+			{		
 			case 1:				
 				 ++frequency1; 
 				break;
@@ -46,14 +45,12 @@ public class RollDie
 			case 6:
 				++frequency6; 
 				break;
-
 			}						
 		}
 		
 		System.out.println("Face\tFrequenz"); // output headers
 		System.out.printf("1:\t%d%n2:\t%d%n3:\t%d%n4:\t%d%n5:\t%d%n6:\t%d%n",
-				frequency1,frequency2,frequency3,frequency4,frequency5,frequency6);		
-		
+				frequency1,frequency2,frequency3,frequency4,frequency5,frequency6);				
 	}
 }
 
