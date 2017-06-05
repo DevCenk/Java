@@ -35,7 +35,7 @@ public class StudentPoll
 			}
 			catch (ArrayIndexOutOfBoundsException e) 
 			{
-				System.out.println(e); // invokes toString method
+				System.out.println(e); // invokes toString method // implicitly calls the exception object’s toString method
 				System.out.printf(" responses[%d] = %d%n%n",
 						 answer, responses[answer]); 
 			}	
