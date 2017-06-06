@@ -5,7 +5,8 @@ public class BarChart
 {
 	public static void main(String[] args)
 	{
-		int[] array = { 0, 0, 0, 0, 0, 0, 1, 2, 4, 2, 1 };
+		// that can be input by applicant or pc-disk or internet data-base...
+		int[] array = { 1, 2, 0, 0, 0, 0, 1, 2, 4, 2, 1 };
 		
 		System.out.println("Grade distribution:");
 		

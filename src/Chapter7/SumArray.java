@@ -22,6 +22,7 @@ public class SumArray
 		for(int counter = 0 ; counter < array.length; counter++ )
 			totalA += array[counter];
 		
+		// with enhanced loop it is not possible to manipulate array elements
 		for(int element : array)
 			totalB += element;
 		
