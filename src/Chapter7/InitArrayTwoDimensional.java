@@ -16,6 +16,7 @@ public class InitArrayTwoDimensional
 	
 	public static void outputArray(int[][] array)
 	{
+		// 2 dimensional array manipualtion
 		for(int row = 0; row < array.length; row++) 
 		{
 			for(int coloumn = 0; coloumn < array[row].length; coloumn++ ) 
