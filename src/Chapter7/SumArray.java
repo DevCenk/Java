@@ -9,17 +9,26 @@ package Chapter7;
 	makes the program more reusable, because it can be used with different sets of data.
  *
  */
+
 //Computing the sum of the elements of an array.
 public class SumArray 
 {
 	public static void main(String[] args) 
 	{
-		int[] array = { 10, 11, 12, 13};
-		int total = 0;
+		int[] array = { 10, 11, 12, 13 };
+		int totalA = 0;
+		int totalB = 0;
 		
 		for(int counter = 0 ; counter < array.length; counter++ )
-			total += array[counter];
+			totalA += array[counter];
 		
-		System.out.printf("total of array elemts are: %d", total);								
+		for(int element : array)
+			totalB += element;
+		
+		// Ehanced for’s header (e.g., int element) indicates that for each iteration, the int variable
+		// element takes on a value in the array. 
+		
+		System.out.printf("sum of array elemts with normal for : %11d%n", totalA);
+		System.out.printf("sum of array elemts with normal Enhanced-for : %d", totalB);
 	}
 }
